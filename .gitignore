@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# EPUB and HTML results (Data/Output)
+*.epub
+*.html
+!reduced_2_first_chapter.html  # Mantener este si es un ejemplo de entrada
+!reduced_first_chapter.html    # Mantener este si es un ejemplo de entrada
+
+# Database
+*.db
+*.db-journal
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
